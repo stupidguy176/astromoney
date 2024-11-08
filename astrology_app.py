@@ -1527,10 +1527,11 @@ st.markdown(
     }
     </style>
     <div class="container">
-        <div class="emoji">✨</div>
+        <div class="title">Hello nunu</div>
+        <!--<div class="emoji">✨</div>
         <div class="title">ASTROTOMI</div>
         <div class="beta">(Beta)</div>
-        <div class="emoji">✨</div>
+        <div class="emoji">✨</div>-->
     </div>
     """,
     unsafe_allow_html=True
@@ -1574,7 +1575,7 @@ st.markdown(
         left: -100px;  /* Căn về góc trái */
         width: 800px;  /* Tăng kích thước ảnh lên */
         height: 800px;  /* Giữ tỷ lệ phù hợp */
-        background-image: url('https://chiemtinhlaso.com/assets/images/hand_bg.png');
+        # background-image: url('https://chiemtinhlaso.com/assets/images/hand_bg.png');
         background-size: contain;  /* Giữ nguyên tỷ lệ ảnh */
         background-position: left bottom;  /* Đặt ở góc trái dưới */
         background-repeat: no-repeat;  /* Không lặp lại ảnh */
@@ -1602,7 +1603,7 @@ st.markdown(
 
     /* Đổi nền của sidebar bằng ảnh */
     [data-testid="stSidebar"] {
-        background-image: url('https://images.newscientist.com/wp-content/uploads/2023/07/03093742/sei162306009.jpg');
+        # background-image: url('https://images.newscientist.com/wp-content/uploads/2023/07/03093742/sei162306009.jpg');
         background-size: cover;  /* Ảnh sẽ bao phủ toàn bộ sidebar */
         background-repeat: no-repeat;
         background-position: relative;
@@ -1618,7 +1619,7 @@ st.markdown(
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.15); /* Điều chỉnh độ trong suốt tại đây */
+        # background-color: rgba(0, 0, 0, 0.15); /* Điều chỉnh độ trong suốt tại đây */
         z-index: 0;  /* Đặt lớp overlay phía sau nội dung */
     }
 
@@ -1743,8 +1744,8 @@ with st.expander('Nhập thông tin của bạn:' if language == "Tiếng Việt
             no_suggestions_msg = "Hệ Thống đang quả tải vì lượng truy cập cao, vui lòng thử lại sau ít phút nữa."
             enter_city_msg = "Nhập tên thành phố để tìm kiếm nơi sinh của bạn."
             text = "Vui lòng nhập ngày tháng năm sinh mà bạn được sinh ra"
-            calculate_button_label = "Tạo Báo Cáo" 
-            refresh_button_label = "Tạo mới" 
+            calculate_button_label = "Let's go" 
+            refresh_button_label = "Create new" 
         else:
             date_label = 'Date of Birth (yyyy/mm/dd)'
             hour_label = "Hour"
@@ -2047,7 +2048,7 @@ if st.button(f"✨ {calculate_button_label} ✨"):
                 if not birth_place.strip():
                     # Nếu thiếu nơi sinh, hiển thị thông báo lỗi và dừng các thao tác khác
                     if language == "Tiếng Việt":
-                        st.error("Bạn vui lòng điền đầy đủ thông tin để  Tomi có thể tạo báo cáo nha")
+                        st.error("Bạn vui lòng điền đầy đủ thông tin nha.")
                     else:
                         st.error("You haven't input your birth place.")
                 else:
@@ -2094,7 +2095,7 @@ if st.button(f"✨ {calculate_button_label} ✨"):
                     # Mã hóa ảnh tomi.png
                     encoded_tomi = encode_image(tomi_path)
                     # Tạo biến thông báo spinner dựa trên ngôn ngữ
-                    spinner_message = 'Tomi đang đọc biểu đồ sao của bạn, chờ Tomi tí xíu nhe!' if language == "Tiếng Việt" else 'Tomi is creating your report, please wait...'
+                    spinner_message = 'Đang đọc biểu đồ sao của bạn, chờ xíu nhe!' if language == "Tiếng Việt" else 'Creating your report, please wait...'
                     with st.spinner(spinner_message):
                         # Hiển thị ảnh trong khi chờ load
                         placeholder = st.empty()  # Tạo placeholder để quản lý nội dung
@@ -2522,7 +2523,7 @@ st.markdown(
     """
     <style>
     .end-section {
-        background-image: url('https://images.newscientist.com/wp-content/uploads/2023/07/03093742/sei162306009.jpg');
+        # background-image: url('https://images.newscientist.com/wp-content/uploads/2023/07/03093742/sei162306009.jpg');
         background-position: center;
         # background-size: cover;
         padding: 30px;
@@ -2569,7 +2570,8 @@ footer_text = (
 st.markdown(
     f"""
     <div class="end-section">
-        <div class="content-row">
+        <div>End section here</div>
+        <!--<div class="content-row">
             <div class="content-center">
                 <img src="data:image/png;base64,{encoded_qr}" width="150" style="cursor: pointer;" onclick="openModal()"/>
             </div>
@@ -2582,14 +2584,14 @@ st.markdown(
                 </a>
             </div>
         </div>
-        <div class="footer-text">{footer_text}</div>
+        <div class="footer-text">{footer_text}</div>-->
     </div>
     """,
     unsafe_allow_html=True
 )
 # Nội dung footer theo ngôn ngữ
 if language == "Tiếng Việt":
-    footer_content = """🌟 Được phát triển bởi đội ngũ Timo | <a style='color: #FFD700;' href="https://timo.vn" target="_blank">Timo.vn</a> 🌟"""
+    footer_content = """Được phát triển bởi ...."""
 else:
     footer_content = """🌟 Developed by the Timo team | <a style='color: #FFD700;' href="https://timo.vn" target="_blank">Timo.vn</a> 🌟"""
 
@@ -2609,9 +2611,9 @@ footer = f"""
         z-index: 100;
     }}
     </style>
-    <div class="footer">
+    <!--<div class="footer">
         <p>{footer_content}</p>
-    </div>
+    </div>-->
 """
 
 # Hiển thị footer trên Streamlit
@@ -2666,28 +2668,12 @@ import streamlit as st
 
 # Nội dung Tiếng Việt
 about_us_vn = """
-🔮 **Astrotomi** 🔮 - Mở đầu cho một sự kết hợp hoàn toàn mới & độc đáo giữa việc đọc bản đồ sao & phân tích thói quen tài chính, được phát triển bởi đội ngũ Timo (và một chút phép màu từ AI nữa).
-
-Chỉ cần nhập vài thông tin cơ bản, Astrotomi sẽ dự đoán xu hướng tài chính của bạn, từ đó đưa ra các gợi ý sản phẩm phù hợp nhất theo nhu cầu có trên ứng dụng Timo.
-
-
-Đã đủ hấp dẫn để bạn thử chưa? Bắt đầu thôi ✨
-
-
-**Lưu ý:** Kết quả Astrotomi chỉ mang tính tham khảo.
+Đôi lời gì đó chưa biết viết gì.
 """
 
 # Nội dung Tiếng Anh
 about_us_en = """
-🔮 **Astrotomi** 🔮 – The start of a completely new and unique combination of star chart reading & financial habit analysis, developed by the Timo team (with a little magic from AI).
-
-Just enter a few basic details, and Astrotomi will predict your financial tendencies, then suggest the most suitable products based on your needs within the Timo app.
-
-
-Intrigued enough to give it a try? Let’s get started! ✨
-
-
-**Note:** Astrotomi results are for reference only.
+We are a team of developers who are passionate about creating useful and innovative applications.
 """
 
 # Hàm mã hóa ảnh thành base64
@@ -2743,7 +2729,7 @@ st.markdown(
 
 # Nội dung "About Us" tùy theo ngôn ngữ
 if language == "Tiếng Việt":
-    title = "VỀ DỰ ÁN"
+    title = "VỀ CHÚNG TÔI"
     content = about_us_vn
 else:
     title = "ABOUT US"
@@ -2755,10 +2741,10 @@ st.sidebar.markdown(
     <div class="about-us">
         <div class="about-title">{title}</div>
         <div class="about-content">{content}</div>
-        <div class="sidebar-images">
+        <!--<div class="sidebar-images">
             <img class="tomi-img" src="data:image/png;base64,{encoded_tomi}" width="120"/>
             <img src="data:image/png;base64,{encoded_qr}" width="120"/>
-        </div>
+        </div>-->
     </div>
     """,
     unsafe_allow_html=True
