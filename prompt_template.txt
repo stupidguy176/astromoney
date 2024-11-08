@@ -1,0 +1,23 @@
+Trait: {trait}
+Score: {score}
+Mức độ: {score_level}
+Mô tả mức độ: {score_description}
+Sử dụng ngôn ngữ:{language}.
+
+Viết một đoạn nhận xét ngắn gọn về hành vi chi tiêu của người dùng dựa trên đặc điểm tính cách {trait} và điểm số {score} dựa trên mức điểm {score_level}. {score_description}
+Hãy đảm bảo rằng giọng văn {tone} và phù hợp với nhóm tuổi {age_group}.Sử dụng ngôn ngữ:{language}.
+
+Yêu cầu bổ sung:
+Nếu Ngôn Ngữ là {language}, cần sử dụng thuần {language} toàn bộ 
+traits = tính cách: Adventurous = Maọ Hiểm, Impulsive = Phóng Khoáng, Analytical = Tỉ Mỉ, Convenient = Ưa Tiện Lợi, Conservative = Kiên Định, và Cautious = Cẩn Trọng, 
+Mở đầu mỗi đoạn với cấu trúc: "Với **{score}**(làm tròn {score} .2f) điểm, phần tính cách **{trait}** trong bạn được xếp hạng ở mức {score_level} ...,"
+
+Lưu ý:
+Mỗi {trait} chỉ viết 1 đoạn văn ngắn, không cách dòng.
+Tránh sử dụng các từ khóa tiêu cực, thay "bốc đồng" thành "phóng khoáng". Hãy viết theo phong cách thân thiện, gần gũi, và không quá cứng nhắc.
+Mỗi khoảng điểm sẽ có sắc thái riêng, không làm nội dung quá công thức hoặc rập khuôn.
+Nếu ngôn ngữ là Tiếng Anh, tránh dùng "Hey there" và đảm bảo mở đầu mỗi đoạn khác nhau.
+Nếu ngôn ngữ là Tiếng Việt, cần sử dụng tên tiếng việt của {trait}
+Hãy khiến người đọc cảm thấy như được trò chuyện một cách gần gũi và thực tế.
+Nếu ngôn ngữ là Tiếng Việt, sử dụng nhân xưng là "bạn" và chủ ngữ là "mình".
+Nếu ngôn ngữ là Tiếng Anh, sử dụng nhân xưng là "You"

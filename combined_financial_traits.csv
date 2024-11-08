@@ -1,0 +1,241 @@
+Planet,Conservative,Analytical,Cautious,Adventurous,Impulsive,Convenient
+Sun Aries,1,1,1,5,5,3
+Sun Taurus,5,3,5,1,1,2
+Sun Gemini,2,4,3,4,4,5
+Sun Cancer,4,2,5,2,2,2
+Sun Leo,3,2,3,4,4,4
+Sun Virgo,4,5,5,2,1,2
+Sun Libra,3,4,3,3,2,4
+Sun Scorpio,4,4,5,3,2,2
+Sun Sagittarius,1,2,2,5,4,5
+Sun Capricorn,5,5,5,2,1,2
+Sun Aquarius,2,4,3,4,3,4
+Sun Pisces,3,2,4,3,3,3
+Moon Aries,2,1,1,4,4,3
+Moon Taurus,5,3,5,1,1,3
+Moon Gemini,2,4,2,4,4,4
+Moon Cancer,4,2,5,2,2,3
+Moon Leo,3,2,3,4,4,4
+Moon Virgo,4,5,5,2,1,2
+Moon Libra,3,4,4,3,2,4
+Moon Scorpio,5,4,4,3,2,2
+Moon Sagittarius,2,2,2,5,4,5
+Moon Capricorn,5,4,5,2,1,2
+Moon Aquarius,2,4,3,4,3,3
+Moon Pisces,2,2,3,4,4,3
+Mercury Aries,2,3,2,5,4,3
+Mercury Taurus,5,4,5,2,1,2
+Mercury Gemini,2,5,3,4,4,5
+Mercury Cancer,4,3,4,2,2,3
+Mercury Leo,3,3,3,4,4,4
+Mercury Virgo,4,5,5,2,1,3
+Mercury Libra,3,4,3,3,2,4
+Mercury Scorpio,4,5,4,3,2,1
+Mercury Sagittarius,2,3,2,5,4,5
+Mercury Capricorn,5,4,5,2,1,2
+Mercury Aquarius,3,5,3,4,3,4
+Mercury Pisces,3,3,4,3,3,3
+Mars Aries,1,1,1,5,5,5
+Mars Taurus,4,3,4,2,1,2
+Mars Gemini,2,3,2,4,4,4
+Mars Cancer,3,2,4,2,2,3
+Mars Leo,3,2,2,4,4,4
+Mars Virgo,4,4,4,2,1,2
+Mars Libra,3,3,3,3,2,4
+Mars Scorpio,4,5,4,3,3,2
+Mars Sagittarius,1,2,2,5,4,1
+Mars Capricorn,5,5,5,2,1,2
+Mars Aquarius,2,4,3,4,3,4
+Mars Pisces,3,2,4,2,2,2
+Venus Aries,2,2,2,5,5,4
+Venus Taurus,5,3,5,1,1,2
+Venus Gemini,2,4,2,4,5,5
+Venus Cancer,4,2,4,2,2,3
+Venus Leo,3,3,3,4,4,4
+Venus Virgo,4,5,5,1,1,2
+Venus Libra,3,4,3,3,3,4
+Venus Scorpio,4,5,4,3,2,2
+Venus Sagittarius,2,2,2,5,4,5
+Venus Capricorn,5,5,5,2,1,2
+Venus Aquarius,3,4,3,4,3,4
+Venus Pisces,3,2,4,3,3,3
+Jupiter Aries,2,2,2,5,5,4
+Jupiter Taurus,5,3,5,2,1,2
+Jupiter Gemini,2,4,2,4,4,5
+Jupiter Cancer,4,3,4,2,2,2
+Jupiter Leo,3,3,3,4,4,4
+Jupiter Virgo,5,5,5,1,1,2
+Jupiter Libra,3,4,3,3,3,4
+Jupiter Scorpio,4,4,4,3,3,2
+Jupiter Sagittarius,2,3,2,5,4,5
+Jupiter Capricorn,5,5,5,2,1,1
+Jupiter Aquarius,3,4,3,4,3,4
+Jupiter Pisces,3,2,4,3,3,3
+Saturn Aries,3,4,3,2,2,3
+Saturn Taurus,5,4,5,1,1,1
+Saturn Gemini,3,4,3,2,3,3
+Saturn Cancer,4,3,4,2,1,2
+Saturn Leo,3,4,3,3,2,3
+Saturn Virgo,5,5,5,2,1,1
+Saturn Libra,4,4,5,2,1,2
+Saturn Scorpio,5,4,5,2,2,2
+Saturn Sagittarius,3,3,3,3,2,3
+Saturn Capricorn,5,5,5,1,1,1
+Saturn Aquarius,3,5,3,4,1,3
+Saturn Pisces,3,3,4,2,2,3
+Uranus Aries,1,1,1,5,5,5
+Uranus Taurus,4,3,4,2,2,2
+Uranus Gemini,2,5,2,4,4,4
+Uranus Cancer,3,3,4,3,3,2
+Uranus Leo,2,3,3,5,4,3
+Uranus Virgo,3,5,4,3,2,3
+Uranus Libra,2,4,3,4,3,3
+Uranus Scorpio,3,5,4,3,3,2
+Uranus Sagittarius,2,3,2,5,4,3
+Uranus Capricorn,4,4,4,2,2,2
+Uranus Aquarius,2,5,3,5,4,3
+Uranus Pisces,3,3,3,3,3,3
+Neptune Aries,2,2,2,4,4,3
+Neptune Taurus,4,3,4,2,2,3
+Neptune Gemini,2,3,2,4,4,4
+Neptune Cancer,4,2,4,3,3,3
+Neptune Leo,3,2,3,4,4,3
+Neptune Virgo,4,4,4,2,2,3
+Neptune Libra,3,3,3,4,3,4
+Neptune Scorpio,4,4,4,3,3,2
+Neptune Sagittarius,2,3,2,5,4,3
+Neptune Capricorn,5,4,5,2,2,2
+Neptune Aquarius,3,4,3,5,4,4
+Neptune Pisces,3,2,3,4,4,4
+Pluto Aries,2,3,2,5,4,3
+Pluto Taurus,5,4,4,2,2,3
+Pluto Gemini,2,4,3,4,4,4
+Pluto Cancer,4,3,4,3,3,3
+Pluto Leo,4,3,3,4,4,3
+Pluto Virgo,5,5,5,2,2,3
+Pluto Libra,3,4,3,4,3,4
+Pluto Scorpio,5,5,5,3,3,2
+Pluto Sagittarius,2,4,2,5,4,4
+Pluto Capricorn,5,5,5,2,2,2
+Pluto Aquarius,3,5,3,5,4,4
+Pluto Pisces,4,4,4,3,3,3
+North Node Aries,0,0,0,0,0,0
+North Node Taurus,0,0,0,0,0,0
+North Node Gemini,0,0,0,0,0,0
+North Node Cancer,0,0,0,0,0,0
+North Node Leo,0,0,0,0,0,0
+North Node Virgo,0,0,0,0,0,0
+North Node Libra,0,0,0,0,0,0
+North Node Scorpio,0,0,0,0,0,0
+North Node Sagittarius,0,0,0,0,0,0
+North Node Capricorn,0,0,0,0,0,0
+North Node Aquarius,0,0,0,0,0,0
+North Node Pisces,0,0,0,0,0,0
+South Node Aries,0,0,0,0,0,0
+South Node Taurus,0,0,0,0,0,0
+South Node Gemini,0,0,0,0,0,0
+South Node Cancer,0,0,0,0,0,0
+South Node Leo,0,0,0,0,0,0
+South Node Virgo,0,0,0,0,0,0
+South Node Libra,0,0,0,0,0,0
+South Node Scorpio,0,0,0,0,0,0
+South Node Sagittarius,0,0,0,0,0,0
+South Node Capricorn,0,0,0,0,0,0
+South Node Aquarius,0,0,0,0,0,0
+South Node Pisces,0,0,0,0,0,0
+Chiron Aries,2.6,3.6,2.6,3.2,2.4,3.8
+Chiron Taurus,3.8,3.6,3.8,1.6,2.8,2.6
+Chiron Gemini,2.6,4,2.6,2.8,2.4,3.4
+Chiron Cancer,3.4,4,3.8,2,2.4,2.6
+Chiron Leo,3,4,3,2.8,3.2,3
+Chiron Virgo,3.8,4.4,3.8,1.6,2.4,2.2
+Chiron Libra,3,4,3,2.4,2.8,2.6
+Chiron Scorpio,3.4,4.4,3.4,2,2.4,3
+Chiron Sagittarius,2.6,4,2.6,3.2,2.8,3.8
+Chiron Capricorn,3.8,4,3.8,1.6,2.4,2.6
+Chiron Aquarius,3,4,3,2.8,2.8,3.4
+Chiron Pisces,3,4.4,3,2.8,2.4,3.4
+Lilith Aries,2,3,2,4.4,2.4,4.4
+Lilith Taurus,3.2,3,3.2,2.8,2.8,3.2
+Lilith Gemini,2,3.4,2,4,2.4,4
+Lilith Cancer,2.8,3.4,3.2,3.2,2.4,3.2
+Lilith Leo,2.4,3.4,2.4,4,3.2,3.6
+Lilith Virgo,3.2,3.8,3.2,2.8,2.4,2.8
+Lilith Libra,2.4,3.4,2.4,3.6,2.8,3.2
+Lilith Scorpio,2.8,3.8,2.8,3.2,2.4,3.6
+Lilith Sagittarius,2,3.4,2,4.4,2.8,4.4
+Lilith Capricorn,3.2,3.4,3.2,2.8,2.4,3.2
+Lilith Aquarius,2.4,3.4,2.4,4,2.8,4
+Lilith Pisces,2.4,3.8,2.4,4,2.4,4
+True Lilith Aries,2,3,2,4.4,2.4,4.4
+True Lilith Taurus,3.2,3,3.2,2.8,2.8,3.2
+True Lilith Gemini,2,3.4,2,4,2.4,4
+True Lilith Cancer,2.8,3.4,3.2,3.2,2.4,3.2
+True Lilith Leo,2.4,3.4,2.4,4,3.2,3.6
+True Lilith Virgo,3.2,3.8,3.2,2.8,2.4,2.8
+True Lilith Libra,2.4,3.4,2.4,3.6,2.8,3.2
+True Lilith Scorpio,2.8,3.8,2.8,3.2,2.4,3.6
+True Lilith Sagittarius,2,3.4,2,4.4,2.8,4.4
+True Lilith Capricorn,3.2,3.4,3.2,2.8,2.4,3.2
+True Lilith Aquarius,2.4,3.4,2.4,4,2.8,4
+True Lilith Pisces,2.4,3.8,2.4,4,2.4,4
+Vertex Aries,2.6,3,2,3.8,3,4.4
+Vertex Taurus,3.8,3,3.2,2.2,3.4,3.2
+Vertex Gemini,2.6,3.4,2,3.4,3,4
+Vertex Cancer,3.4,3.4,3.2,2.6,3,3.2
+Vertex Leo,3,3.4,2.4,3.4,3.8,3.6
+Vertex Virgo,3.8,3.8,3.2,2.2,3,2.8
+Vertex Libra,3,3.4,2.4,3,3.4,3.2
+Vertex Scorpio,3.4,3.8,2.8,2.6,3,3.6
+Vertex Sagittarius,2.6,3.4,2,3.8,3.4,4.4
+Vertex Capricorn,3.8,3.4,3.2,2.2,3,3.2
+Vertex Aquarius,3,3.4,2.4,3.4,3.4,4
+Vertex Pisces,3,3.8,2.4,3.4,3,4
+Ceres Aries,3.2,3,3.2,2.6,3.6,3.2
+Ceres Taurus,4.4,3,4.4,1,4,2
+Ceres Gemini,3.2,3.4,3.2,2.2,3.6,2.8
+Ceres Cancer,4,3.4,4.4,1.4,3.6,2
+Ceres Leo,3.6,3.4,3.6,2.2,4.4,2.4
+Ceres Virgo,4.4,3.8,4.4,1,3.6,1.6
+Ceres Libra,3.6,3.4,3.6,1.8,4,2
+Ceres Scorpio,4,3.8,4,1.4,3.6,2.4
+Ceres Sagittarius,3.2,3.4,3.2,2.6,4,3.2
+Ceres Capricorn,4.4,3.4,4.4,1,3.6,2
+Ceres Aquarius,3.6,3.4,3.6,2.2,4,2.8
+Ceres Pisces,3.6,3.8,3.6,2.2,3.6,2.8
+Pallas Aries,2.6,3.6,3.2,3.2,3,3.8
+Pallas Taurus,3.8,3.6,4.4,1.6,3.4,2.6
+Pallas Gemini,2.6,4,3.2,2.8,3,3.4
+Pallas Cancer,3.4,4,4.4,2,3,2.6
+Pallas Leo,3,4,3.6,2.8,3.8,3
+Pallas Virgo,3.8,4.4,4.4,1.6,3,2.2
+Pallas Libra,3,4,3.6,2.4,3.4,2.6
+Pallas Scorpio,3.4,4.4,4,2,3,3
+Pallas Sagittarius,2.6,4,3.2,3.2,3.4,3.8
+Pallas Capricorn,3.8,4,4.4,1.6,3,2.6
+Pallas Aquarius,3,4,3.6,2.8,3.4,3.4
+Pallas Pisces,3,4.4,3.6,2.8,3,3.4
+Juno Aries,3.2,3,2.6,3.2,3,3.8
+Juno Taurus,4.4,3,3.8,1.6,3.4,2.6
+Juno Gemini,3.2,3.4,2.6,2.8,3,3.4
+Juno Cancer,4,3.4,3.8,2,3,2.6
+Juno Leo,3.6,3.4,3,2.8,3.8,3
+Juno Virgo,4.4,3.8,3.8,1.6,3,2.2
+Juno Libra,3.6,3.4,3,2.4,3.4,2.6
+Juno Scorpio,4,3.8,3.4,2,3,3
+Juno Sagittarius,3.2,3.4,2.6,3.2,3.4,3.8
+Juno Capricorn,4.4,3.4,3.8,1.6,3,2.6
+Juno Aquarius,3.6,3.4,3,2.8,3.4,3.4
+Juno Pisces,3.6,3.8,3,2.8,3,3.4
+Vesta Aries,3.2,3,3.2,2.6,3,3.2
+Vesta Taurus,4.4,3,4.4,1,3.4,2
+Vesta Gemini,3.2,3.4,3.2,2.2,3,2.8
+Vesta Cancer,4,3.4,4.4,1.4,3,2
+Vesta Leo,3.6,3.4,3.6,2.2,3.8,2.4
+Vesta Virgo,4.4,3.8,4.4,1,3,1.6
+Vesta Libra,3.6,3.4,3.6,1.8,3.4,2
+Vesta Scorpio,4,3.8,4,1.4,3,2.4
+Vesta Sagittarius,3.2,3.4,3.2,2.6,3.4,3.2
+Vesta Capricorn,4.4,3.4,4.4,1,3,2
+Vesta Aquarius,3.6,3.4,3.6,2.2,3.4,2.8
+Vesta Pisces,3.6,3.8,3.6,2.2,3,2.8

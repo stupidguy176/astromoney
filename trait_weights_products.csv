@@ -1,0 +1,21 @@
+Product,Conservative,Analytical,Cautious,Adventurous,Impulsive,Convenient,,level,weight_range,,,,,
+goal-save,0.85,0.5,0.75,0.3,0.25,0.7,,Very Low,0.05 - 0.23,,,,,
+money-pot,0.9,0.8,0.9,0.3,0.1,0.9,,Low,0.24 - 0.41,,,,,
+overdraft,0.3,0.7,0.3,0.3,0.6,0.9,,Medium,0.42 - 0.59,,,,,
+installment-loan,0.3,0.7,0.7,0.6,0.3,0.05,,High,0.60 - 0.77,,,,,
+visa-credit-card,0.4,0.45,0.45,0.85,0.75,0.8,,Very High,0.78 - 0.95,,,,,
+term-deposit,0.9,0.8,0.85,0.4,0.35,0.35,,TermDeposit,0.95,0.85,0.9,0.3,0.35,0.3
+vinacapital-investments,0.8,0.85,0.9,0.6,0.5,0.5,,Money_Pot,0.9,0.8,0.9,0.3,0.1,0.9
+spending-prediction,0,0,0,0,0,0,,Shared_Pot,0.85,0.9,0.9,0.7,0.4,0.9
+setting-budget,0.9,0.9,0.9,0.3,0.5,0.75,,Goal_Saves,0.8,0.7,0.75,0.1,0.3,0.85
+category-report,0.6,0.9,0.9,0.5,0.3,0.8,,SchedulePayment,0.6,0.6,0.9,0.2,0.1,0.95
+cashflow-overview,0.75,0.9,0.85,0.5,0.4,0.75,,SettingBudget,0.9,0.9,0.9,0.3,0.5,0.75
+asset-tracker,0.9,0.85,0.9,0.4,0.4,0.75,,Tags,0.9,0.9,0.9,0.5,0.1,0.6
+split-bill,0.55,0.3,0.3,0.8,0.75,0.8,,CashLoans,0.4,0.6,0.5,0.6,0.8,0.9
+schedule-payment,0.6,0.6,0.9,0.2,0.1,0.95,,Credit_Card,0.3,0.7,0.55,0.75,0.85,0.85
+present,0.3,0.35,0.35,0.9,0.85,0.9,,Investment,0.3,0.7,0.7,0.9,0.5,0.5
+liberty-travel-insurance,0.4,0.4,0.4,0.75,0.65,0.8,,Overdraft,0,0,0,0,0,0
+shared-pot,0.85,0.9,0.9,0.7,0.4,0.9,,Insurance,0.85,0.6,0.9,0.2,0.2,0.5
+tags,0.8,0.8,0.9,0.5,0.1,0.9,,Split_bill,0.5,0.7,0.7,0.75,0.85,0.9
+pfm,0.6,0.9,0.9,0.5,0.1,0.85,,Gift,0.4,0.55,0.35,0.75,0.9,0.9
+,,,,,,,,vcam-investment,0.3,0.7,0.7,0.9,0.5,0.5

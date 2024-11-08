@@ -1,0 +1,17 @@
+swisseph
+pyswisseph
+matplotlib
+numpy
+pandas
+datetime
+geopy
+pytz
+streamlit
+timezonefinder
+scikit-learn
+plotly
+openai
+swisseph
+pyswisseph
+unicode
+unidecode

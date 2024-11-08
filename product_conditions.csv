@@ -1,0 +1,5 @@
+Product,Condition
+Money_Pot1,scores['Cautious'] > 2.8 and scores['Analytical'] > 3.0
+Credit_Card1,scores['Cautious'] > 3.0 and scores['Analytical'] > 3.5 and scores['Adventurous'] > 4 or scores['Impulsive'] > 3.5 and scores['Analytical'] > 3.5 and scores['Adventurous'] > 4.4
+Investment1,scores['Cautious'] > 3.3 and scores['Analytical'] > 3.47 and scores['Adventurous'] > 3.7 and scores['Conservative'] > 2.7 or scores['Analytical'] > 3.47 and scores['Adventurous'] > 4.8
+CashLoans1,scores['Cautious'] > 3.0 and scores['Convenient'] < 3.0 and scores['Impulsive'] < 3.0

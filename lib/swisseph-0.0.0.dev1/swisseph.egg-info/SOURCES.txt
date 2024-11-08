@@ -1,0 +1,5 @@
+setup.py
+swisseph.egg-info/PKG-INFO
+swisseph.egg-info/SOURCES.txt
+swisseph.egg-info/dependency_links.txt
+swisseph.egg-info/top_level.txt

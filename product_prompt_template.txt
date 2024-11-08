@@ -1,0 +1,81 @@
+Sử dụng ngôn ngữ: {language}
+Dựa vào các thông tin sau:
++ Tính cách khách hàng: 
+{traits_info}
+Có 6 traits (tính cách): Adventurous (tiếng Việt là: Maọ Hiểm), Impulsive (tiếng Việt là: Phóng Khoáng), Analytical (tiếng Việt là: Tỉ Mỉ), Convenient (tiếng Việt là: Ưa Tiện Lợi), Conservative (tiếng Việt là: Kiên Định), và Cautious (tiếng Việt là: Cẩn Trọng) 
+Adventurous: Tính cách mạo hiểm trong chi tiêu: có xu hướng thích thử nghiệm sản phẩm, dịch vụ mới và không ngại đầu tư vào những khoản rủi ro cao để tìm kiếm lợi nhuận, ít lo ngại về mất mát và không sợ thất bại. 
+Impulsive: Tính cách phóng khoáng trong chi tiêu: có xu hướng đưa ra quyết định chi tiêu nhanh chóng, dứt khoát, thường bị tác động bởi khuyến mãi hoặc quảng cáo, không cân nhắc kỹ lưỡng về hậu quả tài chính, dẫn đến chi tiêu vượt ngân sách. 
+Analytical: Tính cách tỉ mỉ trong chi tiêu: có xu hướng luôn nghiên cứu kỹ trước khi chi tiêu, thường so sánh giá cả và lập kế hoạch chi tiết, sẽ ưu tiên các khoản đầu tư an toàn và luôn quản lý ngân sách một cách chặt chẽ. 
+Convenient: Tính cách ưa sự tiện lợi trong chi tiêu: có xu hướng đặt sự tiện lợi lên hàng đầu, ưa chuộng các sản phẩm và dịch vụ giúp tiết kiệm thời gian, sẵn sàng trả thêm để có trải nghiệm nhanh chóng và dễ dàng. 
+Conservative: Tính cách kiên định trong chi tiêu: có xu hướng thận trọng trong chi tiêu, tránh các trường hợp đem lại rủi ro cao và thường chọn các khoản đầu tư an toàn như tiết kiệm, ưu tiên bảo toàn tài sản hơn là lợi nhuận cao. 
+Cautious: Tính cách cẩn trọng trong chi tiêu: có xu hướng cân nhắc kỹ càng mọi rủi ro trước khi chi tiêu, ưu tiên sự an toàn và bảo toàn tài sản, thậm chí tránh cả những cơ hội có lợi nhuận nếu thấy không chắc chắn về nó, hoặc cảm thấy mức độ rủi ro cao vượt ngoài vùng an toàn mà bản thân có thể kiểm soát. 
+**Nếu Ngôn Ngữ là {language}, cần sử dụng thuần {language} toàn bộ văn bản**
+
+mở đầu có dang như sau: chọn {language} cho phù hợp:
++ Tiếng Việt: Dựa trên các đặc điểm tính cách nổi bật như {traits_info} (lấy top 3) (nếu Ngôn Ngữ = {language}, dùng tên {language})  Những sản phẩm dưới đây được thiết kế để phù hợp với tính cách này, giúp bạn quản lý tài chính hiệu quả hơn:
++ Tiếng Anh: Based on your prominent personality traits such as {traits_info} (top 3) (if Language = {language}, use the {language} names), the following products are tailored to align with these traits, helping you manage your finances more effectively:
+
+### Sản phẩm phù hợp/ Suitable Products: 
+{top_5_eligible_products} trong {eligible_products}
+
+Nếu ngôn ngữ là {language}, **chỉ sử dụng tên {language} của các traits** (ví dụ: Mạo Hiểm thay vì Adventurous, **đừng ghi mạo hiểm (Mạo Hiểm)**.
+Nên thêm vào các thông tin của tính cách, mức độ để bài viết có xu hướng phân tích hơn
+
+Hãy viết 1 đoạn văn về sản phẩm có thể phù hợp với {traits_info} , giải thích dựa trên {traits_info} {top_5_eligible_products}, viết bài với cấu trúc rõ ràng và các đoạn văn ngắn gọn nhưng đầy đủ thông tin. Sử dụng {language}
+
+
+**Yêu cầu:**
+0. **Mở đầu:** chọn {language} cho phù hợp:
+ví dụ tiếng việt: Dựa trên các đặc điểm tính cách nổi bật như  **tính cách có điểm cao nhất (điểm của trait đó)**,  **tính cách có điểm cao nhì (điểm của trait đó)** và  **tính cách có điểm cao thứ ba (điểm của trait đó)**, bạn thể hiện xu hướng thích (dựa vào 3 traits cao nhất để mô tả trong 1 câu). Những sản phẩm dưới đây được thiết kế để phù hợp với tính cách này, giúp bạn quản lý tài chính hiệu quả hơn:
+ví dụ tiếng anh: Based on your prominent personality traits such as ** first highest trait (trait score)**,  **second highest trait (trait score)** and  **third highest trait (trait score)**, you tend to lean towards (insert 1 sentence description based on these top 3 traits). The following products are designed to align with these traits, helping you manage your finances more effectively:
+-> Dựa trên các đặc điểm tính cách nổi bật như (liệt kê 3 tính cách điểm cao (+ điểm của chúng), bạn...
+-> Based on your prominent personality traits such as (liệt kê 3 tính cách điểm cao (+ there score), you...
+
+**. **Ví dụ Cách Hiển Thị tên sản phẩm:**
+
+- **Tiếng Việt:**  
+  **Hũ Chi Tiêu (Money Pot)** - Giúp bạn...  
+  _Bạn có thể tìm hiểu thêm tại [Link](https://timo.vn/product/...)_  
+
+- **English:**  
+  **Money Pot (Hũ Chi Tiêu)** - Helps you...  
+  _Learn more about this at [Link(https://timo.vn/en/...)_
+
+1. ** lấy đủ top 5 sản phẩm trong {top_5_eligible_products} để viết bài.**
+
+Nếu một sản phẩm có các sản phẩm con, chúng sẽ được liệt kê bên dưới với mô tả phù hợp. Ví dụ:
+**Quản Lý Tài Chính Cá Nhân (Personal Financial Management)**: Sản phẩm này giúp bạn...
+**Sản phẩm này bao gồm: (liệt kể dủ các sản phẩm con kèm mô tả của chúng product_hierarchy = 
+    "pfm": [
+        "tags",
+        "setting-budget",
+        "category-report",
+        "cashflow-overview",
+        "asset-tracker",
+        "spending-prediction",
+    ]
+)**
+        ví dụ: (nên theo thứ tự điểm số cao đến thấp)
+   (lùi ô để thể hiện được đây là sản phẩm con)     **Báo Cáo Thu Chi (Cashflow Report):** Giúp bạn...
+   (lùi ô để thể hiện được đây là sản phẩm con)     **Gắn Nhãn Giao Dịch (Transaction Tags):** _Mô tả...
+    (lùi ô để thể hiện được đây là sản phẩm con)     tương tự **{eligible_products}:** _mô tả...
+sản phẩm con cuối cùng phải cách hàng \n\n
+link của Personal Financial Management được viết tắt là pfm
+
+2. **Sản phẩm phù hợp:** **Danh sách các sản phẩm phù hợp lấy từ {top_5_eligible_products} và {traits_info}, nêu bật lợi ích chính và lý do tại sao khách hàng sẽ thích từng sản phẩm.  **
+3. **Giọng văn:** {tone}, nhắm đến đối tượng: {age_group}.
+4. **Chèn liên kết:** Sản phẩm con không chèn liên kết**
+**Với mỗi sản phẩm khác san phẩm con, hãy thêm liên kết cuối mỗi mô tả như sau:  
+   _Bạn có thể tìm hiểu thêm tại/ learn more about this at [Link](https://...)_
+5. **nếu ngôn ngữ = {language}, chỉ dùng tên {language} của sản phẩm đó, ví dụ Money Pot: Hũ Chi Tiêu, Overdraft: Thấu Chi,...**
+6. **Nếu Ngôn Ngữ là {language}, cần sử dụng thuần {language} toàn bộ văn bản**
+7. **Ví dụ Cách Hiển Thị:**
+
+- **Tiếng Việt:**  
+  **Hũ Chi Tiêu (Money Pot)**  Sản phẩm này giúp bạn...  
+  _Bạn có thể tìm hiểu thêm tại [Link](https://timo.vn/product/hu-chi-tieu)_  
+
+- **English:**  
+  **Money Pot (Hũ Chi Tiêu)**  This product helps you...  
+  _Learn more about this at [Link](https://timo.vn/en/money-pot)_
+

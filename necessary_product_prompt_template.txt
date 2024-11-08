@@ -1,0 +1,45 @@
+Sử dụng ngôn ngữ: {language}
+Dựa vào các thông tin sau:
++ Tính cách khách hàng: 
+{traits_info}
+Có 6 traits (tính cách): Adventurous (tiếng Việt là: Maọ Hiểm), Impulsive (tiếng Việt là: Phóng Khoáng), Analytical (tiếng Việt là: Tỉ Mỉ), Convenient (tiếng Việt là: Ưa Tiện Lợi), Conservative (tiếng Việt là: Kiên Định), và Cautious (tiếng Việt là: Cẩn Trọng) 
+Adventurous: Tính cách mạo hiểm trong chi tiêu: có xu hướng thích thử nghiệm sản phẩm, dịch vụ mới và không ngại đầu tư vào những khoản rủi ro cao để tìm kiếm lợi nhuận, ít lo ngại về mất mát và không sợ thất bại. 
+Impulsive: Tính cách phóng khoáng trong chi tiêu: có xu hướng đưa ra quyết định chi tiêu nhanh chóng, dứt khoát, thường bị tác động bởi khuyến mãi hoặc quảng cáo, không cân nhắc kỹ lưỡng về hậu quả tài chính, dẫn đến chi tiêu vượt ngân sách. 
+Analytical: Tính cách tỉ mỉ trong chi tiêu: có xu hướng luôn nghiên cứu kỹ trước khi chi tiêu, thường so sánh giá cả và lập kế hoạch chi tiết, sẽ ưu tiên các khoản đầu tư an toàn và luôn quản lý ngân sách một cách chặt chẽ. 
+Convenient: Tính cách ưa sự tiện lợi trong chi tiêu: có xu hướng đặt sự tiện lợi lên hàng đầu, ưa chuộng các sản phẩm và dịch vụ giúp tiết kiệm thời gian, sẵn sàng trả thêm để có trải nghiệm nhanh chóng và dễ dàng. 
+Conservative: Tính cách kiên định trong chi tiêu: có xu hướng thận trọng trong chi tiêu, tránh các trường hợp đem lại rủi ro cao và thường chọn các khoản đầu tư an toàn như tiết kiệm, ưu tiên bảo toàn tài sản hơn là lợi nhuận cao. 
+Cautious: Tính cách cẩn trọng trong chi tiêu: có xu hướng cân nhắc kỹ càng mọi rủi ro trước khi chi tiêu, ưu tiên sự an toàn và bảo toàn tài sản, thậm chí tránh cả những cơ hội có lợi nhuận nếu thấy không chắc chắn về nó, hoặc cảm thấy mức độ rủi ro cao vượt ngoài vùng an toàn mà bản thân có thể kiểm soát. 
+**Nếu Ngôn Ngữ là {language}, cần sử dụng thuần {language} toàn bộ văn bản**
+
+mở đầu có dang như sau, chọn {language} cho phù hợp:
+Tiếng Việt: Ngoài những sản phẩm phù hợp với bạn ở trên, dưới đây là một số sản phẩm mà bạn có thể cần để đảm bảo an toàn tài chính của mình, hãy cùng xem qua nhé:
+Tiếng Anh: Beyond the products that suit you, here are some additional ones you may need to secure your financial well-being. Let’s take a look!
+### Sản phẩm cần thiết/ Necessary Products:
+{necessary_products}
+
+
+hãy viết 1 đoạn văn về sản phẩm có thể Cần Thiết với {traits_info} , giải thích dựa trên {traits_info} (lấy top 5 sản phẩm điểm cao nhât)
+Nếu ngôn ngữ là {language}, **chỉ sử dụng tên {language} của các traits** (ví dụ: Mạo Hiểm thay vì Adventurous, **đừng ghi mạo hiểm (Mạo Hiểm)**.
+Nên thêm vào các thông tin của tính cách, mức độ để bài viết có xu hướng phân tích hơn
+
+**Yêu cầu:**
+1. **Mở đầu:** chọn {language} phù hợp (không để "Tiếng Việt:" ở đầu câu:
+Ngoài những sản phẩm phù hợp với bạn ở trên, dưới đây là một số sản phẩm mà bạn có thể cần để đảm bảo an toàn tài chính của mình, hãy cùng xem qua nhé:
+Beyond the products that suit you, here are some additional ones you may need to secure your financial well-being. Let’s take a look!
+
+2. **Sản phẩm cần thiết:** Nếu sản phẩm có nhãn "Cần thiết", hãy liệt kê riêng, giải thích tại sao khách hàng nên sử dụng, ngay cả khi họ có thể ít có hứng thú với sản phẩm đó.  
+3. Giọng văn: {tone}, nhắm đến đối tượng: {age_group}.
+4. Với mỗi sản phẩm, hãy thêm liên kết cuối mỗi mô tả:  
+   _Bạn có thể tìm hiểu thêm tại [Link](https://timo.vn/product/... You can learn more about this at [Link](https://timo.vn/en/...
+5.**nếu ngôn ngữ = {language}, dùng tên {language} của sản phẩm đó, ví dụ Money Pot: Hũ Chi Tiêu, Term Deposit: Tài Khoản Tiết Kiệm,...**
+6. **Nếu Ngôn Ngữ là {language}, cần sử dụng thuần {language} toàn bộ văn bản**
+7. ** chỉ lấy các sản phẩm trong {necessary_products} (không cần đề cập tới label) để viết bài
+8. **kết bài nên đặt cảm xúc vào và đừng máy móc quá)
+9. **Ví dụ Cách Hiển Thị:**
+ **Tiếng Việt:**  
+  **Tiết Kiệm Trực Tuyến (Term Deposit)**: Đây là một sản phẩm rất hữu ích...  
+  _Bạn có thể tìm hiểu thêm tại [Link](https://timo.vn/product/term-deposit)_  
+
+- **English:**  
+  **Term Deposit (Tiết Kiệm Trực Tuyến)**:  This product helps you...  
+  _Learn more about this at [Link](https://timo.vn/en/term-deposit)_

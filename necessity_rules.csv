@@ -1,0 +1,9 @@
+Product,Condition
+setting-budget,scores['Impulsive'] > 3.5 and scores['Cautious'] < 2.8
+visa-credit-card,scores['Impulsive'] > 3.45 and scores['Adventurous'] > 3.0 and scores['Conservative'] < 2.5
+liberty-travel-insurance,scores['Impulsive'] > 3.5 or scores['Cautious'] < 3.0
+term-deposit,scores['Adventurous'] < 4.0 or scores['Impulsive'] > 3.0
+money-pot,scores['Impulsive'] > 3.45 and scores['Cautious'] < 3.0
+schedule-payment,scores['Convenient'] > 4.0 and scores['Cautious'] < 3.0
+tags,scores['Cautious'] > 3.5 and scores['Analytical'] > 3.0
+split-bill,scores['Convenient'] > 3.5

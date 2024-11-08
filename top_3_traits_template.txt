@@ -1,0 +1,26 @@
+Tính cách:
+{traits_info}
+Top 3 Traits: {top_3_traits}
+use language: {language}. 
+
+Viết một đoạn Storytelling - Kể câu chuyện hành vi tài chính dựa trên các **{traits_info}** này. sử dụng {language}
+Cần phải kết hợp các trait với nhau để đưa ra nhận xét mang tính liên kết các trait nhất.
+Có 6 traits (tính cách): Adventurous (tiếng việt là : Maọ Hiểm), Impulsive (tiếng việt là : Phóng Khoáng), Analytical (tiếng việt là : Tỉ Mỉ), Convenient (tiếng việt là : Ưa Tiện Lợi), Conservative (tiếng việt là : Kiên Định), và Cautious (tiếng việt là : Cẩn Trọng) 
+Adventurous: Tính cách mạo hiểm trong chi tiêu: có xu hướng thích thử nghiệm sản phẩm, dịch vụ mới và không ngại đầu tư vào những khoản rủi ro cao để tìm kiếm lợi nhuận, ít lo ngại về mất mát và không sợ thất bại. 
+Impulsive: Tính cách phóng khoáng trong chi tiêu: có xu hướng đưa ra quyết định chi tiêu nhanh chóng, dứt khoát, thường bị tác động bởi khuyến mãi hoặc quảng cáo, không cân nhắc kỹ lưỡng về hậu quả tài chính, dẫn đến chi tiêu vượt ngân sách. 
+Analytical: Tính cách tỉ mỉ trong chi tiêu: có xu hướng luôn nghiên cứu kỹ trước khi chi tiêu, thường so sánh giá cả và lập kế hoạch chi tiết, sẽ ưu tiên các khoản đầu tư an toàn và luôn quản lý ngân sách một cách chặt chẽ. 
+Convenient: Tính cách ưa sự tiện lợi trong chi tiêu: có xu hướng đặt sự tiện lợi lên hàng đầu, ưa chuộng các sản phẩm và dịch vụ giúp tiết kiệm thời gian, sẵn sàng trả thêm để có trải nghiệm nhanh chóng và dễ dàng. 
+Conservative: Tính cách kiên định trong chi tiêu: có xu hướng thận trọng trong chi tiêu, tránh các trường hợp đem lại rủi ro cao và thường chọn các khoản đầu tư an toàn như tiết kiệm, ưu tiên bảo toàn tài sản hơn là lợi nhuận cao. 
+Cautious: Tính cách cẩn trọng trong chi tiêu: có xu hướng cân nhắc kỹ càng mọi rủi ro trước khi chi tiêu, ưu tiên sự an toàn và bảo toàn tài sản, thậm chí tránh cả những cơ hội có lợi nhuận nếu thấy không chắc chắn về nó, hoặc cảm thấy mức độ rủi ro cao vượt ngoài vùng an toàn mà bản thân có thể kiểm soát. 
+
+Nếu ngôn ngữ là {language}, **chỉ sử dụng tên {language} của các traits** (ví dụ: Mạo Hiểm thay vì Adventurous, **đừng ghi mạo hiểm (Mạo Hiểm)**.
+Tập trung chính vào 3 phần tính cách có điểm cao nhất, thứ tự của mỗi trait đại diện cho mức độ ảnh hưởng trong khía cạnh tài chính. 
+**Trait đầu tiên có ảnh hưởng lớn nhất, và trait cuối cùng có ảnh hưởng ít nhất**. Hãy kết hợp vào một đoạn văn duy nhất. 
+Chỉ trả về nội dung chính trong 1 đoạn văn duy nhất, không thêm các phần không liên quan. Sử dụng từ ngữ sinh động, tránh lờ mờ thiếu rõ ràng hoặc quá cứng nhắc.
+Nếu ngôn ngữ là Tiếng Việt, cần sử dụng tên tiếng việt của các trait
+Nếu {age_group}, cần gợi ý thêm các cách sử dụng ưu điểm tài chính phù hợp với độ tuổi và đưa ra lời khuyên phải thực tế và dựa vào những hạn chế của người dùng.
+**không kết thúc bằng "chúc bạn" mà kết thúc bằng "Hãy cũng khám phá xem những sản phẩm nào của **Timo** sẽ phù hợp với bạn nhé!**
+Yêu cầu bổ sung:
+Nếu Ngôn Ngữ là {language}, cần sử dụng thuần {language} toàn bộ 
+Lưu ý: sử dụng danh từ nhân xưng là bạn.
+Không sử dụng các từ ngữ tiêu cực và áp đặt.
