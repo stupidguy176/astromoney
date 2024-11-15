@@ -1989,9 +1989,9 @@ if st.button(f"✨ {calculate_button_label} ✨"):
                 feedback_message = "### Please help Tomi select how you feel about the ASTROTOMI beta experience!"
 
             # Đường dẫn đến các ảnh sticker đã lưu cục bộ
-            sticker_1_path = os.path.join("images", "Tomi-Sticker_Part1_18.png")
-            sticker_2_path = os.path.join("images", "Tomi-Sticker_Part1_31.png")
-            sticker_3_path = os.path.join("images", "Tomi-Sticker_Part1_36.png")
+            # sticker_1_path = os.path.join("images", "Tomi-Sticker_Part1_18.png")
+            # sticker_2_path = os.path.join("images", "Tomi-Sticker_Part1_31.png")
+            # sticker_3_path = os.path.join("images", "Tomi-Sticker_Part1_36.png")
             # Văn bản cho các sticker theo ngôn ngữ
             texts = {
                 "Tiếng Việt": ["Chán òm", "Hơi khó hiểu~~", "Tuyệt vời!!"],
@@ -2090,7 +2090,7 @@ if st.button(f"✨ {calculate_button_label} ✨"):
                             return base64.b64encode(img_file.read()).decode()
 
                     # Đường dẫn đến ảnh tomi.png
-                    tomi_path = os.path.join("images", "Tomi.png")
+                    # tomi_path = os.path.join("images", "Tomi.png")
 
                     # Mã hóa ảnh tomi.png
                     encoded_tomi = encode_image(tomi_path)
@@ -2220,39 +2220,39 @@ if st.button(f"✨ {calculate_button_label} ✨"):
                             #     st.markdown(necessary_df_display.to_html(classes='custom-table'), unsafe_allow_html=True)
                                             # Sử dụng expander để ẩn/hiện phần nhận xét chi tiết
                         # Tải ảnh và mã hóa base64
-                        sticker_1 = base64.b64encode(open(sticker_1_path, "rb").read()).decode()
-                        sticker_2 = base64.b64encode(open(sticker_2_path, "rb").read()).decode()
-                        sticker_3 = base64.b64encode(open(sticker_3_path, "rb").read()).decode()
+                        # sticker_1 = base64.b64encode(open(sticker_1_path, "rb").read()).decode()
+                        # sticker_2 = base64.b64encode(open(sticker_2_path, "rb").read()).decode()
+                        # sticker_3 = base64.b64encode(open(sticker_3_path, "rb").read()).decode()
                         
                         st.write("                         ")
                         st.write("### Đánh Giá" if language == "Tiếng Việt" else "### Feedback")
                         # Tab Đánh giá
-                        with st.expander(feedback_message, expanded=True):
-                            st.markdown(
-                                f"""
-                                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-                                    <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
-                                        <a href="https://not-interested.streamlit.app/" target="_blank">
-                                            <img src="data:image/png;base64,{sticker_1}" width="100" style="cursor: pointer;"/>
-                                        </a>
-                                        <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][0]}</p>
-                                    </div>
-                                    <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
-                                        <a href="https://mehh-soso.streamlit.app/" target="_blank">
-                                            <img src="data:image/png;base64,{sticker_2}" width="100" style="cursor: pointer;"/>
-                                        </a>
-                                        <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][1]}</p>
-                                    </div>
-                                    <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
-                                        <a href="https://good-job.streamlit.app/" target="_blank">
-                                            <img src="data:image/png;base64,{sticker_3}" width="100" style="cursor: pointer;"/>
-                                        </a>
-                                        <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][2]}</p>
-                                    </div>
-                                </div>
-                                """,
-                                unsafe_allow_html=True,
-                            )
+                        # with st.expander(feedback_message, expanded=True):
+                        #     st.markdown(
+                        #         f"""
+                        #         <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+                        #             <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                        #                 <a href="https://not-interested.streamlit.app/" target="_blank">
+                        #                     <img src="data:image/png;base64,{sticker_1}" width="100" style="cursor: pointer;"/>
+                        #                 </a>
+                        #                 <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][0]}</p>
+                        #             </div>
+                        #             <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                        #                 <a href="https://mehh-soso.streamlit.app/" target="_blank">
+                        #                     <img src="data:image/png;base64,{sticker_2}" width="100" style="cursor: pointer;"/>
+                        #                 </a>
+                        #                 <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][1]}</p>
+                        #             </div>
+                        #             <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                        #                 <a href="https://good-job.streamlit.app/" target="_blank">
+                        #                     <img src="data:image/png;base64,{sticker_3}" width="100" style="cursor: pointer;"/>
+                        #                 </a>
+                        #                 <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][2]}</p>
+                        #             </div>
+                        #         </div>
+                        #         """,
+                        #         unsafe_allow_html=True,
+                        #     )
                     else:
                         # Tạo đoạn văn bản mô tả tất cả các traits với số thứ tự
                         financial_traits_text = ""
@@ -2422,40 +2422,40 @@ if st.button(f"✨ {calculate_button_label} ✨"):
                         
                         # Sử dụng expander để ẩn/hiện phần nhận xét chi tiết
                         # Tải ảnh và mã hóa base64
-                        sticker_1 = base64.b64encode(open(sticker_1_path, "rb").read()).decode()
-                        sticker_2 = base64.b64encode(open(sticker_2_path, "rb").read()).decode()
-                        sticker_3 = base64.b64encode(open(sticker_3_path, "rb").read()).decode()
+                        # sticker_1 = base64.b64encode(open(sticker_1_path, "rb").read()).decode()
+                        # sticker_2 = base64.b64encode(open(sticker_2_path, "rb").read()).decode()
+                        # sticker_3 = base64.b64encode(open(sticker_3_path, "rb").read()).decode()
                         
-                        st.write("                         ")
-                        st.write("### Đánh Giá" if language == "Tiếng Việt" else "### Feedback")
+                        # st.write("                         ")
+                        # st.write("### Đánh Giá" if language == "Tiếng Việt" else "### Feedback")
                         
                         # Tab Đánh giá
-                        with st.expander(feedback_message, expanded=True):
-                            st.markdown(
-                                f"""
-                                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-                                    <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
-                                        <a href="https://not-interested.streamlit.app/" target="_blank">
-                                            <img src="data:image/png;base64,{sticker_1}" width="100" style="cursor: pointer;"/>
-                                        </a>
-                                        <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][0]}</p>
-                                    </div>
-                                    <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
-                                        <a href="https://mehh-soso.streamlit.app/" target="_blank">
-                                            <img src="data:image/png;base64,{sticker_2}" width="100" style="cursor: pointer;"/>
-                                        </a>
-                                        <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][1]}</p>
-                                    </div>
-                                    <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
-                                        <a href="https://good-job.streamlit.app/" target="_blank">
-                                            <img src="data:image/png;base64,{sticker_3}" width="100" style="cursor: pointer;"/>
-                                        </a>
-                                        <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][2]}</p>
-                                    </div>
-                                </div>
-                                """,
-                                unsafe_allow_html=True,
-                            )
+                        # with st.expander(feedback_message, expanded=True):
+                        #     st.markdown(
+                        #         f"""
+                        #         <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+                        #             <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                        #                 <a href="https://not-interested.streamlit.app/" target="_blank">
+                        #                     <img src="data:image/png;base64,{sticker_1}" width="100" style="cursor: pointer;"/>
+                        #                 </a>
+                        #                 <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][0]}</p>
+                        #             </div>
+                        #             <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                        #                 <a href="https://mehh-soso.streamlit.app/" target="_blank">
+                        #                     <img src="data:image/png;base64,{sticker_2}" width="100" style="cursor: pointer;"/>
+                        #                 </a>
+                        #                 <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][1]}</p>
+                        #             </div>
+                        #             <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                        #                 <a href="https://good-job.streamlit.app/" target="_blank">
+                        #                     <img src="data:image/png;base64,{sticker_3}" width="100" style="cursor: pointer;"/>
+                        #                 </a>
+                        #                 <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][2]}</p>
+                        #             </div>
+                        #         </div>
+                        #         """,
+                        #         unsafe_allow_html=True,
+                        #     )
                         
             # Tab Feedback với các sticker
             with tabs[1]:  # Tab Đánh giá/Feedback
@@ -2464,39 +2464,39 @@ if st.button(f"✨ {calculate_button_label} ✨"):
 
 
                 # Tải ảnh và mã hóa base64
-                sticker_1 = base64.b64encode(open(sticker_1_path, "rb").read()).decode()
-                sticker_2 = base64.b64encode(open(sticker_2_path, "rb").read()).decode()
-                sticker_3 = base64.b64encode(open(sticker_3_path, "rb").read()).decode()
+                # sticker_1 = base64.b64encode(open(sticker_1_path, "rb").read()).decode()
+                # sticker_2 = base64.b64encode(open(sticker_2_path, "rb").read()).decode()
+                # sticker_3 = base64.b64encode(open(sticker_3_path, "rb").read()).decode()
 
                 # Tab Đánh giá
-                with st.expander(feedback_message, expanded=True):
-                    st.markdown(
-                        f"""
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-                            <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
-                                <a href="https://not-interested.streamlit.app/" target="_blank">
-                                    <img src="data:image/png;base64,{sticker_1}" width="100" style="cursor: pointer;"/>
-                                </a>
-                                <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][0]}</p>
-                            </div>
-                            <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
-                                <a href="https://mehh-soso.streamlit.app/" target="_blank">
-                                    <img src="data:image/png;base64,{sticker_2}" width="100" style="cursor: pointer;"/>
-                                </a>
-                                <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][1]}</p>
-                            </div>
-                            <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
-                                <a href="https://good-job.streamlit.app/" target="_blank">
-                                    <img src="data:image/png;base64,{sticker_3}" width="100" style="cursor: pointer;"/>
-                                </a>
-                                <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][2]}</p>
-                            </div>
-                        </div>
-                        """,
-                        unsafe_allow_html=True,
-                    )
+            #     with st.expander(feedback_message, expanded=True):
+            #         st.markdown(
+            #             f"""
+            #             <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+            #                 <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+            #                     <a href="https://not-interested.streamlit.app/" target="_blank">
+            #                         <img src="data:image/png;base64,{sticker_1}" width="100" style="cursor: pointer;"/>
+            #                     </a>
+            #                     <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][0]}</p>
+            #                 </div>
+            #                 <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+            #                     <a href="https://mehh-soso.streamlit.app/" target="_blank">
+            #                         <img src="data:image/png;base64,{sticker_2}" width="100" style="cursor: pointer;"/>
+            #                     </a>
+            #                     <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][1]}</p>
+            #                 </div>
+            #                 <div style="flex: 1; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+            #                     <a href="https://good-job.streamlit.app/" target="_blank">
+            #                         <img src="data:image/png;base64,{sticker_3}" width="100" style="cursor: pointer;"/>
+            #                     </a>
+            #                     <p style="margin-top: 5px; font-size: 18px; text-align: center;">{texts[language][2]}</p>
+            #                 </div>
+            #             </div>
+            #             """,
+            #             unsafe_allow_html=True,
+            #         )
 
-            st.write("                         ")
+            # st.write("                         ")
 
     # Nút Refresh để làm mới ứng dụng
 if st.button(f"{refresh_button_label}"):
@@ -2510,13 +2510,13 @@ def encode_image(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Đường dẫn tới ảnh QR code và các nút store
-qr_path = os.path.join("images", "qr.png")
-app_store_path = os.path.join("images", "ast.png")
-google_play_path =os.path.join("images", "adr.png")
+# qr_path = os.path.join("images", "qr.png")
+# app_store_path = os.path.join("images", "ast.png")
+# google_play_path =os.path.join("images", "adr.png")
 # Mã hóa các ảnh thành base64
-encoded_qr = encode_image(qr_path)
-encoded_app_store = encode_image(app_store_path)
-encoded_google_play = encode_image(google_play_path)
+# encoded_qr = encode_image(qr_path)
+# encoded_app_store = encode_image(app_store_path)
+# encoded_google_play = encode_image(google_play_path)
 
 # CSS tùy chỉnh cho section cuối cùng của trang
 st.markdown(
@@ -2567,28 +2567,28 @@ footer_text = (
 )
 
 # HTML hiển thị QR code và các nút tải app theo bố cục
-st.markdown(
-    f"""
-    <div class="end-section">
-        <div>End section here</div>
-        <!--<div class="content-row">
-            <div class="content-center">
-                <img src="data:image/png;base64,{encoded_qr}" width="150" style="cursor: pointer;" onclick="openModal()"/>
-            </div>
-            <div class="content-center">
-                <a href="https://app.adjust.com/1h1f5pz7" target="_blank">
-                    <img src="data:image/png;base64,{encoded_app_store}" width="160" style="cursor: pointer;"/>
-                </a>
-                <a href="https://app.adjust.com/1hccdzw5?fallback=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dio.lifestyle.plus%26hl%3D&redirect_macos=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dio.lifestyle.plus%26hl%3D" target="_blank">
-                    <img src="data:image/png;base64,{encoded_google_play}" width="160" style="cursor: pointer;"/>
-                </a>
-            </div>
-        </div>
-        <div class="footer-text">{footer_text}</div>-->
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     f"""
+#     <div class="end-section">
+#         <div>End section here</div>
+#         <!--<div class="content-row">
+#             <div class="content-center">
+#                 <img src="data:image/png;base64,{encoded_qr}" width="150" style="cursor: pointer;" onclick="openModal()"/>
+#             </div>
+#             <div class="content-center">
+#                 <a href="https://app.adjust.com/1h1f5pz7" target="_blank">
+#                     <img src="data:image/png;base64,{encoded_app_store}" width="160" style="cursor: pointer;"/>
+#                 </a>
+#                 <a href="https://app.adjust.com/1hccdzw5?fallback=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dio.lifestyle.plus%26hl%3D&redirect_macos=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dio.lifestyle.plus%26hl%3D" target="_blank">
+#                     <img src="data:image/png;base64,{encoded_google_play}" width="160" style="cursor: pointer;"/>
+#                 </a>
+#             </div>
+#         </div>
+#         <div class="footer-text">{footer_text}</div>-->
+#     </div>
+#     """,
+#     unsafe_allow_html=True
+# )
 # Nội dung footer theo ngôn ngữ
 if language == "Tiếng Việt":
     footer_content = """Được phát triển bởi ...."""
@@ -2682,8 +2682,8 @@ def encode_image(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Mã hóa ảnh QR và Tomi
-encoded_qr = encode_image("images/qr.png")
-encoded_tomi = encode_image("images/Tomi.png")
+# encoded_qr = encode_image("images/qr.png")
+# encoded_tomi = encode_image("images/Tomi.png")
 
 # CSS cho căn giữa và tạo animation cho Tomi
 st.markdown(
@@ -2736,19 +2736,19 @@ else:
     content = about_us_en
 
 # Hiển thị tiêu đề, nội dung, và ảnh Tomi + QR code
-st.sidebar.markdown(
-    f"""
-    <div class="about-us">
-        <div class="about-title">{title}</div>
-        <div class="about-content">{content}</div>
-        <!--<div class="sidebar-images">
-            <img class="tomi-img" src="data:image/png;base64,{encoded_tomi}" width="120"/>
-            <img src="data:image/png;base64,{encoded_qr}" width="120"/>
-        </div>-->
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+# st.sidebar.markdown(
+#     f"""
+#     <div class="about-us">
+#         <div class="about-title">{title}</div>
+#         <div class="about-content">{content}</div>
+#         <!--<div class="sidebar-images">
+#             <img class="tomi-img" src="data:image/png;base64,{encoded_tomi}" width="120"/>
+#             <img src="data:image/png;base64,{encoded_qr}" width="120"/>
+#         </div>-->
+#     </div>
+#     """,
+#     unsafe_allow_html=True
+# )
 
 
 
